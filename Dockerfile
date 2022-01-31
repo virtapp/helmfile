@@ -5,7 +5,9 @@ WORKDIR /workspace/helmfile
 COPY . /workspace/helmfile
 RUN make static-linux
 
+
 # -----------------------------------------------------------------------------
+
 
 FROM alpine:3.13
 
